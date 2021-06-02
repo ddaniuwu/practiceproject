@@ -1,0 +1,31 @@
+:root{
+  --color: aliceblue;
+  --secondary : green
+}
+*{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+button{
+  width: 10rem;
+  height: 5rem;
+  background-color: transparent;
+  color:black;
+  border-color:var(--secondary);
+}
+button:hover{
+  background-color:var(--secondary);
+  color: var(--color);
+  border-color: var(--color);
+}
+
+.class-more{
+  color: green;
+  font-family:"Courier New",Lucida Console;
+}
+
+.minus{
+  color:red;
+  font-family:"Courier New",Lucida Console;
+}
