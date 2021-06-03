@@ -78,6 +78,7 @@ export default class TextFilter extends React.Component{
 
         <TableHeaderColumn dataField='company' 
         filter={{type: 'TextFilter' , delay: 1 }}
+        editable={false}
         >Organization</TableHeaderColumn>
       </BootstrapTable>
           </div>
